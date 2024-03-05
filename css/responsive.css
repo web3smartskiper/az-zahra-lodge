@@ -95,6 +95,9 @@
     .d_none {
         display: none;
     }
+    .col-md-6 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -166,5 +169,13 @@
     }
     .d_none {
         display: none;
+    }
+    /* .col-md-6 {
+        max-width: 100%;
+        
+    } */
+
+    .map_main{
+        max-width: 100%;
     }
 }
